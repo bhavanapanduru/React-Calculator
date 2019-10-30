@@ -1,7 +1,12 @@
 import React from "react";
+import "./Result.css";
 
 function Result(props) {
-    return <p id="value">{props.value}</p>;
+    return (
+        <p id="value">
+            <strong>{props.value}</strong>
+        </p>
+    );
 }
 
 export default Result;
