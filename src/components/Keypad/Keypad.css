@@ -1,0 +1,39 @@
+.numpad {
+    height: 22vw;
+    width: 75%;
+    display: flex;
+    flex-flow: row wrap;
+    float: left;
+}
+
+.numpad button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1 0 33.3333%;
+
+    background-color: gray;
+    color: white;
+    font-size: 1.5vw;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.operator {
+    float: left;
+    width: 25%;
+    height: 22vw;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.operator button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+
+    background-color: rgb(255, 166, 0);
+    color: white;
+    font-size: 1.5vw;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+}
